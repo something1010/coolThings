@@ -12,4 +12,7 @@ jobs:
     name: Windwos build
     runs-on: windows-2022
     steps:
-    - run: echo Hello world!
+    - name: Checkout Repository
+      uses: actions/checkout
+    - name: cat
+      run: cat holepunch.cpp
