@@ -18,11 +18,11 @@ jobs:
     - name: Build project
       run: |
           mkdir out
-          g++ -o out/holepunch holepunch.cpp
+          g++ -o out/holepunch-ubuntu holepunch.cpp
 
     - name: Upload build
       uses: actions/upload-artifact@v4
       with:
         name: holepunch
         path: |
-          out/holepunch
+          out/holepunch-ubuntu
