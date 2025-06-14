@@ -1,5 +1,4 @@
 ﻿#include<iostream>
-#include<windows.h>
 #include<ctime>
 #include<math.h>
 
@@ -13,11 +12,11 @@ int main(){
 
 	cin >> message;
 	
-	const string letters = "abcdefghijklmnopqrstuvwxyz ";
+	const string letters = "0123456789abcdefghijklmnopqrstuvwxyz ";
 	string mask = "";
 	string result = "";
 
-	int density = 5;
+	int density = 7;
 	//int totalCount = message.length() * density;
 	
 	while (message.length() > 0) {
