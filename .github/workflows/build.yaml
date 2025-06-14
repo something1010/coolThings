@@ -21,7 +21,7 @@ jobs:
           g++ -o out/holepunch holepunch.cpp
 
     - name: Upload build
-      uses: actions/upload-artifact@4
+      uses: actions/upload-artifact@v3
       with:
         name: holepunch
         path: |
