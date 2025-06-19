@@ -2,3 +2,7 @@ h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: #ff00ff
 }
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white
+}
